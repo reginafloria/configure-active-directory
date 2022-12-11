@@ -23,9 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows 10 (21H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
-
 - Setup Resources in Azure
-- Ensure Connectivity between the client and Domain Controller
 - Install Active Directory
 - Create an Admin and Normal User Account in AD
 - Join Client-1 to your domain (mydomain.com)
@@ -53,12 +51,12 @@ Creation of the Server DC-1 (Domain Controller) and the creation of Client-1
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Ensure Connectivity between the client and Domain Controller
 
 
-5. Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
-6. Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
-7. Check back at Client-1 to see the ping succeed
+
+
+
+
 
 </p>
 <br />
